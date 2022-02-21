@@ -1,6 +1,6 @@
 <html>
   <head>
-        title>HOMEPAGE</title>
+        <title>HOMEPAGE</title>
   </head>
   <body>
   <h1>WELCOME TO MY WEBSITE</h1>
