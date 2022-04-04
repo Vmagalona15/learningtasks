@@ -1,0 +1,31 @@
+body{
+    height: 920px;
+    width: 1910;
+    text-align: center;
+    background-image: url(S.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    background-position: center;
+}
+
+#p1{
+    font-size: 40px;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    right: 45%;
+    color: white;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#p2{
+    font-size: 50px;
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    right: 1%;
+    color: purple;
+    font-weight: normal;
+    font-family: 'Rubik Glitch', cursive;
+}
