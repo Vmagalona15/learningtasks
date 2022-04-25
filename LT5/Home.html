@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Demon Slayer</title>
+        <link rel="stylesheet" href="home.css">
+        <li href="Characters.html"></li>
+    </head>
+    <body>
+        <div class="main">
+            <nav>
+                <div class="logo">
+                    <img src="log.png">
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="*">Characters</a></li>
+                        <li><a href="*">Story</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="information">
+                <div class="overlay"></div>
+                <img src="logo.png" class="logo">
+                <div id="circle">
+                    <div class="feature one">
+                        <img src="s1.webp">
+                        <div>
+                            <h1>Season 1</h1>
+                            <p>Unwavering Resolve Arc</p>
+                        </div>
+                    </div>
+                    <div class="feature two">
+                        <img src="movie.png">
+                        <div>
+                            <h1>Movie</h1>
+                            <p>Mugen Train Arc</p>
+                        </div>
+                    </div>
+                    <div class="feature three">
+                        <img src="s2.webp">
+                        <div>
+                            <h1>Season 2</h1>
+                            <p>Entertainment District Arc</p>
+                        </div>
+                    </div>
+                    <div class="feature four">
+                        <img src="k.jpg">
+                        <div>
+                            <h1>Kimetsu Academy</h1>
+                            <p>Kimetsu Academy Story</p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="controls">
+                <img src="Arrow.png" id="uBTN">
+                <h3>Features</h3>
+                <img src="Arrow.png" id="dBTN">
+            </div>
+        </div>
+        <script>
+            var circle = document.getElementById("circle");
+            var uBTN = document.getElementById("uBTN");
+            var dBTN = document.getElementById("dBTN");
+            
+            var rotateValue = circle.style.transform;
+            var rotateSum;
+            
+            uBTN.onclick = function()
+            {
+                rotateSum = rotateValue + "rotate(-90deg)";
+                circle.style.transform = rotateSum;
+                rotateValue = rotateSum;
+            }
+            dBTN.onclick = function()
+            {
+                rotateSum = rotateValue + "rotate(90deg)";
+                circle.style.transform = rotateSum;
+                rotateValue = rotateSum;
+            }
+        </script>
+    </body>
+</html>
